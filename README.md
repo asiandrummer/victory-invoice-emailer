@@ -1,6 +1,34 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Victory Worship Invoice System Prototype
 
-## Getting Started
+This is a demo of how we could automate contractors submitting their invoices to Victory church. I just got super bored and saw my wife struggling to open the laptop to do this, so here it is.
+I wasn't gonna go create all the stack by myself so I used Vercel and Next.js for easy deployment. This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+## How to Try
+
+- Go to https://victory-invoice-emailer.vercel.app/
+- Type in date and invoice number
+  - CAUTION: make sure you type in some kind of valid date format (2022/09/10) as I'm not validating input yet.
+- Click "Send"
+- Wait for "TestURL" to pop up. It's a link - click it.
+- Check out the attachment to see the auto-generated invoice.
+
+## Next Steps?
+
+I might go off and try implementing a bunch of features but honestly, we should move away from this manually-emailing model. I have some ideas to build a whole app/system on this.
+
+But if I do end up building more features...
+
+- Date picker
+- Input validation
+- Recipient typeahead/dropdown
+- Name/Address/Phone #/email address that are cached to your browser
+- better UI
+
+## Bugs? Doesn't work?
+
+I'll fix them just give me some time... if you know how to reach me, just reach out via private messages and I'll deal with it
+
+## [DEV] Getting Started
 
 First, run the development server:
 
